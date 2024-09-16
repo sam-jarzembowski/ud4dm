@@ -6,18 +6,21 @@ h1 {
     font-family: "superior-title", serif;
     font-weight: 500;
     font-style: normal; 
-    color: #49696E;
+    color: #6D454C;
 }
 
 h2 {
     margin-top: -1em;
+    margin-bottom: -0.7em;
     font-family: "superior-title", serif;
     font-weight: 500;
     font-style: normal;
     color: #6D454C;
 }
 
-p {
+nav, p {
+    margin-top: -1em;
+    padding-bottom: 1em;
     font-family: "mundial", sans-serif;
     font-weight: 400;
     font-style: normal;
