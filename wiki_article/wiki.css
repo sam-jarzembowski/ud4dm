@@ -16,12 +16,24 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-ul.nav {
+p {
+    line-height: 1.3 em;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-p {
-    line-height: 1.3 em;
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    color: black;
 }
