@@ -46,8 +46,9 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    list-style: none;
+nav ul.circle {
+    list-style-type: circle;
+    margin-left: 35px;
 }
 
 nav ul li a {
