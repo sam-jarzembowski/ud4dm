@@ -30,6 +30,24 @@ body {
   
 }
 
+header {
+    padding-top: 3em;
+}
+
+.infoBar {
+    width: 70%;
+    float: right;
+}
+
+.infoBar img {
+    margin-right: -2em;
+}
+
+.infoBar p {
+    line-height: 0.6em;;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
     font-weight: 700;
@@ -38,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 1.4 em;
     font-weight: 400;
+}
+
+nav {
+    padding-top: 1.2em;
 }
 
 nav ul {
