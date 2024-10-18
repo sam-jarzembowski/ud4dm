@@ -44,8 +44,35 @@ nav ul, a {
 body {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 18px;
+    line-height: 1.4em;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Prata", serif;
+}
+
+h2 {
+    margin-bottom: -0.4em;
+}
+
+h3 {
+    padding-top: 0.4em;
+    margin-bottom: -0.4em;
+}
+
+.header2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.header2 .material-symbols-outlined {
+    padding-right: 0.2em;
+    font-size: 1.6em;
+}
+
+.images {
+    display: flex;
+    float: right;
+    padding: 0 0 1em 1em;
+    max-width: 50%;
 }
