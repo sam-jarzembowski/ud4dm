@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 
 .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
@@ -46,6 +47,8 @@ body {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 18px;
     line-height: 1.4em;
+    background-color: #EADEDA;
+    color: #372F2F;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,6 +86,8 @@ form {
     padding-bottom: 1.2em;
 }
 
+
+/* Accessible form CSS code taken from lecture */
 input:focus {
     border: 4px solid yellow;
 }
