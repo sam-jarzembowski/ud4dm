@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: #FFF6EB;
+    background-color: #C2D4D6;
     font-family: "mundial", sans-serif;;
     font-size: 16px;
 }
 
 .container {
+    background-color: #FFF6EB;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -23,7 +24,7 @@ header {
     font-family: "superior-title", serif;
     font-weight: 500;
     font-style: normal; 
-    color: white;
+    color: #FFF6EB;
     padding-top: 2em;
     margin-bottom: 0em;
 
@@ -52,13 +53,13 @@ nav ul li a {
     text-decoration: none;
     display: block;
     padding: 20px 40px;
-    color: white;
+    color: #FFF6EB;
     /*  border: 1px black solid; */
 }
 
 nav ul li a:hover {
     color: #49696E;
-    background: white;
+    background: #C2D4D6;
 }
 
 img {
