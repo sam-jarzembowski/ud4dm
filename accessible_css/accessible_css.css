@@ -1,2 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&display=swap');
 
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    background: #C01933;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #7799CC;
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "heady      heady       heady"
+    "navvy      navvy       navvy"
+    "aside1     mainy       aside2"
+    "footy      footy       footy";
+}
+
+header {
+    grid-area: heady;
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+
+nav {
+    grid-area: navvy;
+    background: #002A50;
+    padding: 1.5em;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+}
+
+main {
+    grid-area: mainy;
+    background: #7799CC;
+    max-height: 100%;
+    padding: 1.5em;
+}
+
+#aside1 {
+    grid-area: aside1;
+    background: #003366;
+    color: white;
+    padding: 1.5em;
+}
+
+#aside2 {
+    grid-area: aside2;
+    background: #003366;
+    padding: 1.5em;
+}
+
+img {
+    max-width: 18vw;
+}
+
+footer {
+    grid-area: footy;
+    background: #002A50;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+
+footer a {
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h2 {
+    margin-top: 0.6em;
+}
+
+h3 {
+    margin-top: 0.4em;
+}
+
+p {
+    margin-top: 0.3em;
+}
+
+aside p {
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
+}
+
+.hubList {
+    list-style: circle;
+    margin-left: 1.4em;
+}
