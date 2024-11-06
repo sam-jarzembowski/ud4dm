@@ -112,6 +112,11 @@ img {
     border-radius: 6em;
 }
 
+h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 h2 {
     margin-top: 1.5em;
     margin-bottom: 1em;
