@@ -14,6 +14,13 @@ body {
     background-color: #FFF6EB;
     max-width: 1200px;
     margin: 0 auto;
+
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "headr"
+    "navbar"
+    "mainy"
+    "footr";
 }
 
 header, footer {
@@ -32,9 +39,26 @@ header {
     background: #49696E;
 }
 
+footer {
+    font-weight: 300;
+    padding: 2em;
+
+    grid-area: footr;
+}
+
+header h1 {
+    margin-bottom: 0em;
+}
+
 nav {
     grid-area: navbar;
     background: #49696E;
+    margin-top: 0em;
+    padding-top: -2em;
+}
+
+main {
+    grid-area: mainy;
 }
 
 nav ul {
@@ -54,7 +78,6 @@ nav ul li a {
     display: block;
     padding: 20px 40px;
     color: #FFF6EB;
-    /*  border: 1px black solid; */
 }
 
 nav ul li a:hover {
@@ -70,11 +93,9 @@ img {
     border-radius: 6em;
 }
 
-
-
 h2 {
     margin-top: 1.5em;
-    margin-bottom: -0.7em;
+    margin-bottom: 1em;
     font-family: "superior-title", serif;
     font-weight: 500;
     font-style: normal;
@@ -92,4 +113,18 @@ p {
 
 p {
     margin-bottom: -0.5em;
+}
+
+@media screen and (max-width: 640px) {
+    nav ul {
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+
+    /* thumbable */
+    nav ul li a {
+        display: block;
+        padding: 10px 5px;
+        margin: 5px;
+    }
 }
