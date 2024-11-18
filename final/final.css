@@ -17,12 +17,26 @@ body {
     font-family: "inter-variable", sans-serif;
     font-variation-settings: "slnt" 0, "wght" 400;
     color: #424B54;  
+    font-size: 18px;
+    background-color: #C5BAAF;
+    font-size: 18px;
+    line-height: 1.4em;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: "superior-title", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
 }
 
 .container {

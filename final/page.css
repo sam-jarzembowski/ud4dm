@@ -17,6 +17,9 @@ body {
     font-family: "inter-variable", sans-serif;
     font-variation-settings: "slnt" 0, "wght" 400;
     color: #424B54;  
+    background-color: #C5BAAF;
+    font-size: 18px;
+    line-height: 1.4em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -25,17 +28,33 @@ h1, h2, h3, h4, h5 {
     font-style: normal;
 }
 
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
 .container {
     background-color: #E5E0DC;
     max-width: 1200px;
     margin: 0 auto;
 
-    grid-template-columns: 1fr;
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 3fr;
     grid-template-areas: 
-    "headr"
-    "navbar"
-    "mainy"
-    "footr";
+    "headr headr"
+    "navbar navbar"
+    "sidebar mainy"
+    "footr footr";
 }
 
 .sr-only {
@@ -87,6 +106,23 @@ main {
     grid-area: mainy;
     margin: auto;
     max-width: 800px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #424B54;
 }
 
 header a {
