@@ -40,6 +40,11 @@ h3 {
 
 h4 {
     font-size: 1.2em;
+    margin-top: 0.4em;
+}
+
+p {
+    margin-bottom: 0.3em;
 }
 
 .container {
@@ -171,4 +176,18 @@ nav ul li a:hover {
     color: #E5E0DC;
     font-weight: 800;
     /* background: #236445; */
+}
+
+@media screen and (max-width: 640px) {
+    nav ul {
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+
+    /* thumbable */
+    nav ul li a {
+        display: block;
+        padding: 10px 5px;
+        margin: 5px;
+    }
 }
