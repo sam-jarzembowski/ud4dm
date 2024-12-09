@@ -157,6 +157,13 @@ nav ul li a:hover {
     /* background: #236445; */
 }
 
+@media screen and (max-width: 800px) {
+    main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
 @media screen and (max-width: 640px) {
     nav ul {
         flex-flow: column nowrap;

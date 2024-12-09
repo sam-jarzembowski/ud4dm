@@ -182,6 +182,31 @@ nav ul li a:hover {
     /* background: #236445; */
 }
 
+@media screen and (max-width: 800px) {
+
+    #sidebar {
+        padding-left: 1em;
+    }
+
+    main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .container {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "headr"
+        "navbar"
+        "sidebar"
+        "mainy"
+        "footr";
+    }
+
+}
+
 @media screen and (max-width: 640px) {
     nav ul {
         flex-flow: column nowrap;
